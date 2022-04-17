@@ -2,7 +2,7 @@ This project aims to be a strong foundation for react-native applications. It pr
 
 ## Prerequisites
 
-- [Node.js > 12](https://nodejs.org) and npm (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
+- [Node.js > 12](https://nodejs.org) and npm 
 - [expo go](https://expo.dev/client)
 - [VS code](https://code.visualstudio.com)
 
@@ -37,6 +37,4 @@ Modify the environment variables files in root folder (`.env.development`, `.env
 
 ## Screens
 
-In this folder, you have the main objects to apply the composition architecture. Just create a folder for each screen you have in your application, call all the components and static resources you need to render the scene and finally use the corresponding hooks to interact with redux and create behaviors depending on the store.
-
-To keep the structure, extract the styles from the main file and place it in a {namefile.styles.js} do the same for the set of tests needed for each screen with the file {namefile.test.js}
+In this folder, you have the main objects to apply the composition architecture. Just create a folder for each screen you have in your application, call all the components and static resources you need to render the screen.
