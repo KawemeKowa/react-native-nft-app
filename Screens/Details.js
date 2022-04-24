@@ -51,7 +51,7 @@ const Details = ({ route, navigation }) => {
       />
 
       <View
-        stylr={{
+        style={{
           width: '100%',
           position: 'absolute',
           bottom: 0,
@@ -64,6 +64,7 @@ const Details = ({ route, navigation }) => {
       >
         <RectButton minWidth={170} fontSize={SIZES.large} {...SHADOWS.dark} />
       </View>
+
       <FlatList
         data={data.bids}
         renderItem={({ item }) => <DetailsBid bid={item} />}

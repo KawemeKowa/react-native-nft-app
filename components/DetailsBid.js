@@ -8,7 +8,6 @@ const DetailsBid = ({ bid }) => {
     <View
       style={{
         width: '100%',
-        height,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
