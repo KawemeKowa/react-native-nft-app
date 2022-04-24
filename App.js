@@ -5,6 +5,7 @@ import Home from './Screens/Home';
 import Details from './Screens/Details';
 
 const Stack = createStackNavigator();
+
 const theme = {
   ...DefaultTheme,
   colors: {
